@@ -1,0 +1,61 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f1f1f2;
+    padding: 20px;
+}
+
+.column {
+    width: 30%;
+    padding: 20px;
+    background-color: #4bbcf4; /* Fondo azul para la primera columna */
+    color: #fff; /* Texto blanco para contrastar con el fondo azul */
+    border-radius: 10px;
+}
+
+img {
+    border-radius: 50%; /* Hace la imagen redonda */
+    display: block;
+    margin: 0 auto;
+}
+
+.info-column {
+    background-color: #2a93d5; /* Fondo gris claro para las columnas de información */
+    margin-bottom: 100px;
+    padding: 10px;
+    display: flex;
+    align-items: baseline;
+}
+
+h1, h2, h3 {
+    background-color: #fef5c8; /* Barra de fondo azul para los títulos */
+    color: #040300;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+p {
+    text-align: justify; /* Justificar el texto en los párrafos */
+}
+
+footer {
+    background-color: #3498db; /* Fondo azul para el pie de página */
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    color: #040300; /* Color del texto del enlace en el pie de página */
+}
